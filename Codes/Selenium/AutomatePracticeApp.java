@@ -1,4 +1,4 @@
-package com.ibm.xyz.automation;
+package practice.learning.selenium.automation;
 
 import java.time.Duration;
 
@@ -66,3 +66,4 @@ public class AutomatePracticeApp {
 				
 	}
 }
+
