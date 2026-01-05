@@ -1,7 +1,17 @@
 How is API Testing Done? (The Step-by-Step Process)
 A. Prepare the RequestEndpoint (URL): The specific address where the API lives (e.g., https://api.example.com/v1/users).HTTP Method: Decide what action to take (GET, POST, PUT, DELETE).Headers: Include metadata like Content-Type: application/json or Authorization: Bearer <token>.Payload (Body): For POST or PUT, provide the data you want to send, usually in JSON format.B. Execute and Analyze the ResponseStatus Code: Verify if the server replied with the correct code (e.g., 200 OK for success, 201 Created for a new resource).Response Body: Check the JSON data returned to ensure the fields and values are correct.Response Headers: Verify security headers or cookies.Performance: Ensure the API responded within an acceptable timeframe (e.g., under 500ms).
 
-Key Status Codes to KnowRangeMeaningExample2xxSuccess200 OK, 201 Created3xxRedirection301 Moved Permanently4xxClient Error400 Bad Request, 401 Unauthorized, 404 Not Found5xxServer Error500 Internal Server Error, 503 Service Unavailable5. Tools of the TradeManual Testing: Postman or Insomnia.Automation (Java): RestAssured (This is what you will likely use with Narasimha).Performance: JMeter or K6.
+Key Status Codes to Know
+Range      Meaning      Example    
+2xx        Success        200 OK, 201 Created
+3xx        Redirection    301 Moved Permanently
+4xx        Client Error   400 Bad Request, 401 Unauthorized, 404 Not Found
+5xx        Server Error   500 Internal Server Error, 503 Service Unavailable5. 
+
+Tools of the Trade
+Manual Testing: Postman or Insomnia.
+Automation (Java): RestAssured.
+Performance: JMeter or K6.
 
 Common API Test Types
 Functional Testing: Does the API do what it’s supposed to? (e.g., can I create a user?).
