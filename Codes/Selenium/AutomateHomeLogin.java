@@ -1,4 +1,4 @@
-package com.ibm.xyz.automation;
+package practice.learning.selenium.automation;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -23,3 +23,4 @@ public class AutomateHomeLogin {
 		//wait.until(ExceptedConditions.elementTo)
 	}
 }
+
