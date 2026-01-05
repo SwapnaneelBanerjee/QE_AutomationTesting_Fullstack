@@ -1,5 +1,15 @@
 How is API Testing Done? (The Step-by-Step Process)
-A. Prepare the RequestEndpoint (URL): The specific address where the API lives (e.g., https://api.example.com/v1/users).HTTP Method: Decide what action to take (GET, POST, PUT, DELETE).Headers: Include metadata like Content-Type: application/json or Authorization: Bearer <token>.Payload (Body): For POST or PUT, provide the data you want to send, usually in JSON format.B. Execute and Analyze the ResponseStatus Code: Verify if the server replied with the correct code (e.g., 200 OK for success, 201 Created for a new resource).Response Body: Check the JSON data returned to ensure the fields and values are correct.Response Headers: Verify security headers or cookies.Performance: Ensure the API responded within an acceptable timeframe (e.g., under 500ms).
+A. Prepare the Request
+1. Endpoint (URL): The specific address where the API lives (e.g., https://api.example.com/v1/users).
+2. HTTP Method: Decide what action to take (GET, POST, PUT, DELETE).
+3. Headers: Include metadata like Content-Type: application/json or Authorization: Bearer <token>.
+4. Payload (Body): For POST or PUT, provide the data you want to send, usually in JSON format.
+
+B. Execute and Analyze the Response
+1. Status Code: Verify if the server replied with the correct code (e.g., 200 OK for success, 201 Created for a new resource).
+2. Response Body: Check the JSON data returned to ensure the fields and values are correct.
+3. Response Headers: Verify security headers or cookies.
+4. Performance: Ensure the API responded within an acceptable timeframe (e.g., under 500ms).
 
 Key Status Codes to Know
 Range      Meaning      Example    
