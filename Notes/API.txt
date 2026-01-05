@@ -14,7 +14,7 @@ Response Body (Ensuring the data is correct).
 Performance & Security (How fast is it? Is it protected?).
 
 3. REST API (The Standard)
-Full Form: REpresentational State Transfer.
+---> Full Form: REpresentational State Transfer.
 Core Logic: It is "Stateless," meaning each request must contain all the information needed to understand and process it.
 Data Format: Primarily uses JSON (JavaScript Object Notation) because it is lightweight and easy to read.
 Standard HTTP Methods (CRUD):
@@ -24,7 +24,7 @@ PUT/PATCH: Update existing data (Update).
 DELETE: Remove data (Delete).
 
 4. Key Components of a Request
-Endpoint (URL): The specific address of the resource (e.g., /api/users).
+---> Endpoint (URL): The specific address of the resource (e.g., /api/users).
 Method: The action to be performed (GET, POST, etc.).
 Headers: Extra metadata (e.g., Content-Type: application/json or Authorization tokens).
 Body (Payload): The data being sent to the server (used in POST/PUT).
