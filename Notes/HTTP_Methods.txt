@@ -6,10 +6,10 @@ GET	        Read	            Requests data from a resource. 	                   
 -------------------------------------------------------------------------------------------------------------------------
 POST	      Create	          Sends data to a server to create a new resource.	                     No
 -------------------------------------------------------------------------------------------------------------------------
-PUT	       Update/Replace	  Replaces all current representations of the target                     Yes
+PUT	        Update/Replace	  Replaces all current representations of the target                     Yes
                               resource with the request payload.	
 -------------------------------------------------------------------------------------------------------------------------
-PATCH	      Update/Modify	    Applies partial modifications to a resource.	                         No
+PATCH	     Update/Modify	    Applies partial modifications to a resource.	                         No
 -------------------------------------------------------------------------------------------------------------------------
 DELETE	    Delete	          Deletes the specified resource.	                                       Yes
 -------------------------------------------------------------------------------------------------------------------------
