@@ -1,0 +1,180 @@
+1.	What is Selenium WebDriver primarily used for?
+a) UI Automation
+b) API Testing
+c) Database Management
+d) Load Testing
+Answer: 
+2.	Which WebDriver method is used to open a URL?
+a) driver.get()
+b) driver.navigate()
+c) driver.open()
+d) driver.load()
+Answer: 
+3.	Which of the following is NOT a WebDriver-supported browser?
+a) Chrome
+b) Firefox
+c) Safari
+d) Notepad++
+Answer: 
+4.	How do you maximize a browser window in Selenium WebDriver?
+a) driver.manage().window().maximize()
+b) driver.fullscreen()
+c) driver.expand()
+d) driver.setSize(MAX)
+Answer: 
+5.	Which WebDriver command is used to close only the current browser window?
+a) driver.quit()
+b) driver.close()
+c) driver.terminate()
+d) driver.shutdown()
+Answer: 
+6.	What is the difference between driver.quit() and driver.close()?
+a) driver.quit() closes only the current tab, driver.close() closes the entire browser
+b) driver.quit() closes the entire browser, driver.close() closes only the current tab
+c) Both do the same thing
+d) driver.quit() logs out the user
+Answer: 
+7.	Which method is used to find a single element on a webpage?
+a) driver.findElements()
+b) driver.getElement()
+c) driver.findElement()
+d) driver.locateElement()
+Answer: 
+8.	What happens when driver.findElement() cannot locate an element?
+a) It returns null
+b) It throws a NoSuchElementException
+c) It waits indefinitely
+d) It returns an empty list
+Answer: 
+9.	Which of the following locators is the fastest in Selenium WebDriver?
+a) By.id()
+b) By.xpath()
+c) By.name()
+d) By.cssSelector()
+Answer: 
+10.	Which method is used to select a dropdown option by visible text?
+a) selectByValue()
+b) selectByText()
+c) selectByVisibleText()
+d) selectByIndex()
+Answer: 
+11.	Which method is used to handle multiple browser windows in Selenium WebDriver?
+a) driver.switchTo().window()
+b) driver.changeWindow()
+c) driver.openNewWindow()
+d) driver.selectWindow()
+Answer: 
+12.	How can you simulate a mouse hover action in Selenium WebDriver?
+a) Using the Hover() method
+b) Using the moveToElement() method in the Actions class
+c) Using the mouseOver() method
+d) Using the scrollTo() method
+Answer: 
+13.	Which command is used to switch to an iframe in Selenium WebDriver?
+a) driver.switchTo().frame()
+b) driver.changeToIframe()
+c) driver.locateIframe()
+d) driver.activateFrame()
+Answer: 
+14.	Which WebDriver method is used to delete all cookies from the browser session?
+a) driver.clearCookies()
+b) driver.manage().deleteAllCookies()
+c) driver.resetCookies()
+d) driver.deleteCookies()
+Answer: 
+15.	How do you simulate a right-click operation in Selenium WebDriver?
+a) Using the contextClick() method from the Actions class
+b) Using the rightClick() method
+c) Using the mouseEvent() method
+d) Using the click() method with parameters
+Answer: 
+16.	Which method is used to scroll a webpage in Selenium WebDriver?
+a) Using JavaScript Executor
+b) Using driver.scroll()
+c) Using driver.move()
+d) Using driver.navigate().scroll()
+Answer: 
+17.	Which of the following browsers requires a separate driver executable to work with Selenium WebDriver?
+a) Chrome
+b) Firefox
+c) Edge
+d) All of the above
+Answer: 
+18.	Which WebDriver method is used to fetch the title of a web page?
+a) driver.getTitle()
+b) driver.fetchTitle()
+c) driver.retrieveTitle()
+d) driver.getCurrentTitle()
+Answer: 
+19.	Which exception is thrown when an element is not found in Selenium WebDriver?
+a) NoSuchElementException
+b) ElementNotVisibleException
+c) ElementNotFoundException
+d) TimeoutException
+Answer: 
+20.	Which WebDriver method is used to capture a screenshot?
+a) driver.getScreenshotAs()
+b) driver.captureScreen()
+c) driver.takeScreenshot()
+d) driver.screenshot()
+Answer: 
+21.	Which method in WebDriver is used to fetch the current page URL?
+a) driver.getPageURL()
+b) driver.fetchURL()
+c) driver.getCurrentUrl()
+d) driver.getUrl()
+Answer: 
+22.	Which WebDriver method is used to refresh a webpage?
+a) driver.refresh()
+b) driver.navigate().refresh()
+c) driver.reload()
+d) driver.pageReload()
+Answer: 
+23.	Which of the following is the correct way to handle a browser alert in Selenium WebDriver?
+a) driver.alert().accept()
+b) driver.switchTo().alert().accept()
+c) driver.handleAlert().accept()
+d) driver.getAlert().accept()
+Answer: 
+24.	What is the correct way to simulate pressing the Enter key using Selenium WebDriver?
+a) element.sendKeys(Keys.ENTER)
+b) element.pressKey(Keys.ENTER)
+c) element.send(Keys.ENTER)
+d) element.hit(Keys.ENTER)
+Answer: 
+25.	Which of the following is NOT a valid way to locate an element in Selenium WebDriver?
+a) By.id()
+b) By.xpath()
+c) By.value()
+d) By.cssSelector()
+Answer: 
+26.	How can you check if a web element is displayed on the webpage?
+a) element.isDisplayed()
+b) element.isVisible()
+c) element.isShown()
+d) element.exists()
+Answer: 
+27.	Which of the following methods waits for a page to load completely before proceeding?
+a) driver.waitForPageLoad()
+b) driver.manage().timeouts().pageLoadTimeout()
+c) driver.loadPage()
+d) driver.sync()
+Answer: 
+28.	What is the primary purpose of WebDriver’s Actions class?
+a) To perform advanced keyboard and mouse interactions
+b) To handle JavaScript execution
+c) To switch between browser windows
+d) To create reports
+Answer: 
+29.	Which WebDriver method is used to double-click an element?
+a) actions.doubleClick(element).perform()
+b) driver.doubleClick(element)
+c) element.doubleClick()
+d) driver.clickTwice(element)
+Answer: 
+30.	Which WebDriver method is used to check whether an element is enabled?
+a) element.isEnabled()
+b) element.isClickable()
+c) element.isActivated()
+d) element.isActive()
+Answer: 
